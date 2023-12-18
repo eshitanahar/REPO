@@ -4,7 +4,7 @@ CREATE OR REPLACE FORCE VIEW EMOB.VW_ALL_ZONE
  DIVISION_CODE, DIVISION_NAME)
 BEQUEATH DEFINER
 AS 
-SELECT                        ------            --B.WARD_CODE_GOV ward_id,
+SELECT                        ------            --B.WARD_CODE_GOV ward_id
            
            C.UNION_CODE_GOV    union_id,
            C.UNION_CODE,
